@@ -1,1 +1,498 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emad Rashad</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <div class="logo"><span>E</span>mad Rashad</div>
+
+      <ul class="navlist">
+        <li><a href="#home" style="--i: 1">Home</a></li>
+        <li><a href="#about" style="--i: 2">About</a></li>
+        <li><a href="#services" style="--i: 3">Services</a></li>
+        <li><a href="#skills" style="--i: 4">Skills</a></li>
+        <li><a href="#portfolio" style="--i: 5">Portfolio</a></li>
+        <li><a href="#contact" style="--i: 6">Contact</a></li>
+      </ul>
+
+      <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+    <!-- home section design -->
+    <section id="home" class="home">
+      <div class="home-content scroll-scale">
+        <h1>Hi! I'm Emad Rashad</h1>
+        <div class="change-text">
+          <h3>And I'm</h3>
+          <h3>
+            <span class="word">PHP&nbsp;Developer</span>
+            <span class="word">Backend&nbsp;Developer</span>
+            <span class="word">Laravel&nbsp;Developer</span>
+          </h3>
+        </div>
+
+        <p>
+          a developer with more than 5 years of experience in structuring, developing and implementing interactive websites.
+            Able to complete projects efficiently and satisfy customers with attractive, user-friendly websites.
+        </p>
+
+        <div class="info-box">
+          <div class="email-info">
+            <h5>Email :</h5>
+            <span>emadrashad111@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="btn-box">
+          <a
+            href="https://drive.google.com/file/d/1HnCAU6Hb28LijTewh7zIWe9cU-d6T4x5/view?usp=sharing"
+            class="btn"
+            target="_blank"
+            >Download CV</a
+          >
+          <a
+            href="https://api.whatsapp.com/send?phone=201145195373"
+            title="whatsapp"
+            target="_blank"
+            class="btn"
+            >Hire Me Now!</a
+          >
+        </div>
+
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/emadrashad111"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/emad22" target="_blank" title="Github"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=201145195373"
+            title="whatsapp"
+            target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/emad22222"
+            target="_blank"
+            title="facebook"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="home-image scroll-scale">
+        <div class="img-box">
+          <img src="images/home.png" alt="" />
+        </div>
+
+<!--
+        <div class="liquid-shape">
+          <svg
+            viewBox="0 0 500 500"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="100%"
+            id="blobSvg"
+          >
+            <path fill="#12f7ff">
+              <animate
+                attributeName="d"
+                dur="20000ms"
+                repeatCount="indefinite"
+                values="
+                M466,308Q451,366,403.5,399.5Q356,433,303,458Q250,483,205,444.5Q160,406,123.5,375Q87,344,78,
+                297Q69,250,55.5,190Q42,130,88,89.5Q134,49,192,31Q250,13,295.5,53Q341,93,401.5,110.5Q462,128,
+                471.5,189Q481,250,466,308Z;
+
+                M403,288Q381,326,375,391Q369,456,309.5,463Q250,470,211.5,427Q173,384,104,379Q35,374,31.5,312Q28,
+                250,31,187.5Q34,125,102.5,119.5Q171,114,210.5,98Q250,82,300.5,78.5Q351,75,373.5,120.5Q396,166,410.5,
+                208Q425,250,403,288Z;
+
+                M441,298Q416,346,390.5,397.5Q365,449,307.5,468.5Q250,488,206.5,444.5Q163,401,99,387.5Q35,374,50.5,
+                312Q66,250,88.5,210Q111,170,123.5,111Q136,52,193,46Q250,40,312,37Q374,34,384,100.5Q394,167,430,
+                208.5Q466,250,441,298Z;
+
+                M452.5,309.5Q457,369,394.5,380.5Q332,392,291,419.5Q250,447,187.5,456.5Q125,466,89,415Q53,
+                364,51,307Q49,250,54,195Q59,140,95.5,92.5Q132,45,191,26.5Q250,8,290.5,58.5Q331,109,377.5,
+                129Q424,149,436,199.5Q448,250,452.5,309.5Z;
+
+                M444,290.5Q391,331,367,371Q343,411,296.5,425Q250,439,200.5,430Q151,421,134,374Q117,327,96.5,
+                288.5Q76,250,60,190.5Q44,131,104,116Q164,101,207,95Q250,89,295.5,90.5Q341,92,396,113Q451,134,
+                474,192Q497,250,444,290.5Z;
+
+                M450,312Q465,374,406.5,396.5Q348,419,299,451Q250,483,197,458.5Q144,434,105,395Q66,356,65,303Q64,
+                250,85,208.5Q106,167,135,134Q164,101,207,77Q250,53,295.5,72.5Q341,92,384,120Q427,148,431,199Q435,
+                250,450,312Z;
+
+                M465.5,311Q460,372,417.5,419Q375,466,312.5,467Q250,468,203,440.5Q156,413,119.5,379.5Q83,346,72,
+                298Q61,250,74,203Q87,156,115,110Q143,64,196.5,35Q250,6,310,24Q370,42,389,100.5Q408,159,
+                439.5,204.5Q471,250,465.5,311Z;
+
+                M466,308Q451,366,403.5,399.5Q356,433,303,458Q250,483,205,444.5Q160,406,123.5,375Q87,344,78,
+                297Q69,250,55.5,190Q42,130,88,89.5Q134,49,192,31Q250,13,295.5,53Q341,93,401.5,110.5Q462,128,
+                471.5,189Q481,250,466,308Z;"
+              ></animate>
+            </path>
+          </svg>
+        </div>
+-->
+
+<!--
+        <div class="liquid-shape">
+          <svg
+            viewBox="0 0 500 500"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="100%"
+            id="blobSvg"
+          >
+            <path fill="#12f7ff">
+              <animate
+                attributeName="d"
+                dur="20000ms"
+                repeatCount="indefinite"
+                values="
+                M466,308Q451,366,403.5,399.5Q356,433,303,458Q250,483,205,444.5Q160,406,123.5,375Q87,344,78,
+                297Q69,250,55.5,190Q42,130,88,89.5Q134,49,192,31Q250,13,295.5,53Q341,93,401.5,110.5Q462,128,
+                471.5,189Q481,250,466,308Z;
+
+                M403,288Q381,326,375,391Q369,456,309.5,463Q250,470,211.5,427Q173,384,104,379Q35,374,31.5,312Q28,
+                250,31,187.5Q34,125,102.5,119.5Q171,114,210.5,98Q250,82,300.5,78.5Q351,75,373.5,120.5Q396,166,410.5,
+                208Q425,250,403,288Z;
+
+                M441,298Q416,346,390.5,397.5Q365,449,307.5,468.5Q250,488,206.5,444.5Q163,401,99,387.5Q35,374,50.5,
+                312Q66,250,88.5,210Q111,170,123.5,111Q136,52,193,46Q250,40,312,37Q374,34,384,100.5Q394,167,430,
+                208.5Q466,250,441,298Z;
+
+                M452.5,309.5Q457,369,394.5,380.5Q332,392,291,419.5Q250,447,187.5,456.5Q125,466,89,415Q53,
+                364,51,307Q49,250,54,195Q59,140,95.5,92.5Q132,45,191,26.5Q250,8,290.5,58.5Q331,109,377.5,
+                129Q424,149,436,199.5Q448,250,452.5,309.5Z;
+
+                M444,290.5Q391,331,367,371Q343,411,296.5,425Q250,439,200.5,430Q151,421,134,374Q117,327,96.5,
+                288.5Q76,250,60,190.5Q44,131,104,116Q164,101,207,95Q250,89,295.5,90.5Q341,92,396,113Q451,134,
+                474,192Q497,250,444,290.5Z;
+
+                M450,312Q465,374,406.5,396.5Q348,419,299,451Q250,483,197,458.5Q144,434,105,395Q66,356,65,303Q64,
+                250,85,208.5Q106,167,135,134Q164,101,207,77Q250,53,295.5,72.5Q341,92,384,120Q427,148,431,199Q435,
+                250,450,312Z;
+
+                M465.5,311Q460,372,417.5,419Q375,466,312.5,467Q250,468,203,440.5Q156,413,119.5,379.5Q83,346,72,
+                298Q61,250,74,203Q87,156,115,110Q143,64,196.5,35Q250,6,310,24Q370,42,389,100.5Q408,159,
+                439.5,204.5Q471,250,465.5,311Z;
+
+                M466,308Q451,366,403.5,399.5Q356,433,303,458Q250,483,205,444.5Q160,406,123.5,375Q87,344,78,
+                297Q69,250,55.5,190Q42,130,88,89.5Q134,49,192,31Q250,13,295.5,53Q341,93,401.5,110.5Q462,128,
+                471.5,189Q481,250,466,308Z;"
+              ></animate>
+            </path>
+          </svg>
+        </div>
+-->
+      </div>
+    </section>
+    <!-- about section design -->
+    <section id="about" class="about">
+      <div class="img-about scroll-scale">
+        <img src="images/about.png" alt="" />
+
+        <div class="info-about1">
+          <span>5+</span>
+          <p>Years Of Experience</p>
+        </div>
+
+        <div class="info-about2">
+          <span>15+</span>
+          <p>Project Complete</p>
+        </div>
+      </div>
+
+      <div class="about-content scroll-scale">
+        <span>Let's Introduce My Self</span>
+        <h2>About Me</h2>
+        <p>
+          a developer with more than 5 years of experience in structuring, 
+            developing and implementing interactive websites.
+            Able to complete projects efficiently and satisfy 
+            customers with attractive, user-friendly websites.
+        </p>
+
+        <div class="btn-box">
+          <a href="https://www.linkedin.com/in/emadrashad111"
+            target="_blank"
+            title="LinkedIn" 
+            class="btn">Read More!</a>
+        </div>
+      </div>
+    </section>
+    <!-- services section design -->
+    <section class="services" id="services">
+      <div class="main-text scroll-scale">
+<!--        <span>What I Will Do For You</span>-->
+        <h2>Our Services</h2>
+      </div>
+
+      <div class="section-services scroll-bottom">
+        <div class="services-box">
+          <i class="bx bx-code-alt services-icon"></i>
+          <h3>Web Development</h3>
+          <p>
+            Dedicated to crafting dynamic web solutions tailored to your needs.
+            With expertise in web development, I specialize in creating
+            user-friendly, visually appealing websites that drive engagement and
+            achieve results. Let's turn your vision into reality and create an
+            impactful online presence together.
+          </p>
+
+<!--
+          <div class="btn-box services-btn">
+            <a href="#" class="btn">Read More</a>
+          </div>
+-->
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxl-product-hunt services-icon"></i>
+          <h3>Developing APIs and RESTful services</h3>
+          <p>
+            Specialized in crafting APIs and RESTful services to elevate digital
+            experiences. With a focus on seamless integration and optimized
+            functionality, I work closely with clients to tailor solutions that
+            precisely meet their business objectives. Let's collaborate to
+            enhance your digital presence and unlock new possibilities together.
+          </p>
+
+<!--
+          <div class="btn-box services-btn">
+            <a href="#" class="btn">Read More</a>
+          </div>
+-->
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxl-postgresql services-icon"></i>
+          <h3>Creating servers and databases</h3>
+          <p>
+            Offering top-tier services in creating servers and databases.
+            Elevate your digital landscape with customized solutions designed to
+            meet your specific requirements.
+          </p>
+
+<!--
+          <div class="btn-box services-btn">
+            <a href="#" class="btn">Read More</a>
+          </div>
+-->
+        </div>
+      </div>
+    </section>
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+      <div class="main-text scroll-scale">
+<!--        <span>Technical and Professional</span>-->
+        <h2>My Skills</h2>
+      </div>
+
+      <div class="skill-main">
+        <div class="skill-left scroll-scale">
+          <div class="skill-bar">
+            <div class="info">
+              <p>HTML5</p>
+              <p>85%</p>
+            </div>
+            <div class="bar">
+              <span class="html"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>CSS3</p>
+              <p>80%</p>
+            </div>
+            <div class="bar">
+              <span class="css"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>JavaScript</p>
+              <p>80%</p>
+            </div>
+            <div class="bar">
+              <span class="java"></span>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="info">
+              <p>BOOTSTRAP</p>
+              <p>75%</p>
+            </div>
+            <div class="bar">
+              <span class="boot"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-right scroll-scale">
+          <div class="skill-rbar">
+            <div class="info">
+              <p>PHP</p>
+              <p>90%</p>
+            </div>
+            <div class="rbar">
+              <span class="php"></span>
+            </div>
+          </div>
+          <div class="skill-rbar">
+            <div class="info">
+              <p>Laravel</p>
+              <p>85%</p>
+            </div>
+            <div class="rbar">
+              <span class="laravel"></span>
+            </div>
+          </div>
+          <div class="skill-rbar">
+            <div class="info">
+              <p>MySQL</p>
+              <p>85%</p>
+            </div>
+            <div class="rbar">
+              <span class="mysql"></span>
+            </div>
+          </div>
+          <div class="skill-rbar">
+            <div class="info">
+              <p>Github</p>
+              <p>80%</p>
+            </div>
+            <div class="rbar">
+              <span class="git"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <div class="main-text scroll-scale">
+<!--        <span>What i will for you</span>-->
+        <h2>Latest projects</h2>
+      </div>
+
+      <div class="container">
+        <div class="portfolio-gallery scroll-scale">
+          <div class="port-box">
+            <div class="port-image">
+              <img src="images/proj1.png" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>School System</h3>
+              <p>
+                Developed school management system website that aim to
+                facilitate school administration. By PHP, Laravel, MySQL, HTML,
+                CSS, and JavaScript for functionality and responsive design.
+              </p>
+              <a
+                href="https://github.com/MarcoMelad/School_System.git"
+                target="_blank"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+          <div class="port-box">
+            <div class="port-image">
+              <img src="images/pro2.png" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Cara Shop</h3>
+              <p>
+                Developed an e-commerce site for cloths shopping Collaborated
+                with senior developers to design and implement user interfaces
+                for web applications. Using PHP, HTML, CSS, and JavaScript to
+                create responsive and visually appealing front-end components.
+              </p>
+              <a
+                href="https://marcomelad.github.io/Cara-E-Commerce/"
+                target="_blank"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+          <div class="port-box">
+            <div class="port-image">
+              <img src="images/pro3.png" alt="" />
+            </div>
+            <div class="port-content">
+              <h3>Saving Lives</h3>
+              <p>
+                Developed a website aim to save another person's live. People of
+                all ages should consider themselves potential donors. Applied
+                PHP, Laravel, MySQL, HTML, CSS, and JavaScript for functionality
+                and responsive design.
+              </p>
+              <a
+                href="https://github.com/MarcoMelad/Savin-Lives.git"
+                target="_blank"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <div class="main-text scroll-scale">
+        <span>Ask Me a Question</span>
+        <h2>Contact Me</h2>
+
+        <form action="#" class="scroll-bottom">
+          <input type="text" placeholder="Your Name" />
+          <input type="text" placeholder="Your Email" />
+          <input type="text" placeholder="Your Address" />
+          <input type="number" placeholder="Phone Number" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <div class="btn-box formBtn">
+            <button type="submit" class="btn">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- footer design -->
+    <footer>
+      <p class="scroll-scale">
+        Copyright &copy; 2024 by Emad Rashad || All Right Reserved.
+      </p>
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
